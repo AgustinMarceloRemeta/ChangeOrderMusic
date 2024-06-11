@@ -9,3 +9,5 @@ Para usarlo:
 2. Copiar dirección de la carpeta a la cual quieres cambiar el orden de archivos.
 3. Darle al boton.
 4. Listo.
+
+Extra: Si quieres usar esto para cambiar la reproduccion de musica en un pendrive o memoria usar una app que cambie el orden de reproduccion al orden alfabetico, como por ejemplo Fat Sorter. 
