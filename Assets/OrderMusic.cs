@@ -32,7 +32,10 @@ public class OrderMusic : MonoBehaviour
                 name = Path.GetFileName(name);
                 name = Regex.Replace(name, @"[\d+]", "");
                 name = Regex.Replace(name, ".mp", "");
-                string newFilePath = folderPath + "\\" + number.ToString() + " " + name + ".mp3";
+                string numberstring;
+                if (number < 10) numberstring = "0" + number.ToString();
+                else numberstring = number.ToString();
+                string newFilePath = folderPath + "\\" + numberstring + " " + name + ".mp3";
                 number++;
                 string currentFilePath = filePaths[random];
                 print(newFilePath);
